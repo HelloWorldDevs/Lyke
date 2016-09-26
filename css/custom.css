@@ -165,6 +165,26 @@ a:hover {
     padding-top:5px;
     padding-bottom:5px;
 }
+#primary-menu-trigger {
+    font-size:38px;
+}
+@media (max-width:767px) {
+    #logo img {
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    #primary-menu-trigger {
+        font-size:35px;
+    }
+}
+@media (max-width:479px) {
+    #primary-menu-trigger {
+        left:-35px;
+    }
+    .icon-reorder {
+        font-size:30px;
+    }
+}
 #header.full-header #logo {
     padding-right:0px;
 }
@@ -251,5 +271,8 @@ a:hover {
 }
 .content-wrap {
     padding:0;
+}
+#primary-menu-trigger {
+    color:#FFF;
 }
 
