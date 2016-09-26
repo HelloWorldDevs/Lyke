@@ -1075,7 +1075,7 @@ body.stretched #header.full-header .container {
 	margin-right: 15px;
 }
 
-#header.transparent-header.full-header #primary-menu > ul { }
+#header.transparent-header.full-header #primary-menu > ul { border-right-color: rgba(0,0,0,0.1); }
 
 #primary-menu-trigger,
 #page-submenu-trigger {
