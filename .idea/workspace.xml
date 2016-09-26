@@ -24,33 +24,33 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="65" column="99" selection-start-line="65" selection-start-column="99" selection-end-line="65" selection-end-column="99" />
+            <state relative-caret-position="195">
+              <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5802#5808#0" expanded="true" />
-                <element signature="e#5808#5813#0" expanded="true" />
-                <element signature="e#5823#5829#0" expanded="true" />
-                <element signature="e#6036#6042#0" expanded="true" />
-                <element signature="e#6058#6064#0" expanded="true" />
+                <element signature="e#5790#5796#0" expanded="true" />
+                <element signature="e#5796#5801#0" expanded="true" />
+                <element signature="e#5811#5817#0" expanded="true" />
+                <element signature="e#6024#6030#0" expanded="true" />
+                <element signature="e#6046#6052#0" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#6613#6619#0" expanded="true" />
-                <element signature="e#6623#6629#0" expanded="true" />
-                <element signature="e#6641#6647#0" expanded="true" />
-                <element signature="e#6650#6656#0" expanded="true" />
-                <element signature="e#6810#6817#1" expanded="true" />
-                <element signature="e#6880#6887#1" expanded="true" />
-                <element signature="e#6950#6957#1" expanded="true" />
-                <element signature="e#7020#7027#1" expanded="true" />
-                <element signature="e#7090#7097#1" expanded="true" />
+                <element signature="e#6601#6607#0" expanded="true" />
+                <element signature="e#6611#6617#0" expanded="true" />
+                <element signature="e#6629#6635#0" expanded="true" />
+                <element signature="e#6638#6644#0" expanded="true" />
+                <element signature="e#6798#6805#1" expanded="true" />
+                <element signature="e#6868#6875#1" expanded="true" />
+                <element signature="e#6938#6945#1" expanded="true" />
+                <element signature="e#7008#7015#1" expanded="true" />
+                <element signature="e#7078#7085#1" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#7972#7978#0" expanded="true" />
-                <element signature="e#8157#8163#0" expanded="true" />
-                <element signature="e#8174#8180#0" expanded="true" />
-                <element signature="e#8185#8191#0" expanded="true" />
-                <element signature="e#8193#8199#0" expanded="true" />
-                <element signature="e#9318#9325#0" expanded="true" />
-                <element signature="e#9903#9910#0" expanded="true" />
+                <element signature="e#7960#7966#0" expanded="true" />
+                <element signature="e#8145#8151#0" expanded="true" />
+                <element signature="e#8162#8168#0" expanded="true" />
+                <element signature="e#8173#8179#0" expanded="true" />
+                <element signature="e#8181#8187#0" expanded="true" />
+                <element signature="e#9306#9313#0" expanded="true" />
+                <element signature="e#9891#9898#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +69,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="173" column="25" selection-start-line="173" selection-start-column="25" selection-end-line="173" selection-end-column="25" />
+            <state relative-caret-position="500">
+              <caret line="217" column="30" selection-start-line="217" selection-start-column="30" selection-end-line="217" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -91,9 +91,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/utilities.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
@@ -217,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474913014675</updated>
-      <workItem from="1474913015927" duration="7800000" />
+      <workItem from="1474913015927" duration="8826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7800000" />
+    <option name="totallyTimeSpent" value="8826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="184" y="65" width="1154" height="873" extended-state="0" />
@@ -271,14 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="1098" column="21" selection-start-line="1098" selection-start-column="21" selection-end-line="1098" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/utilities.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -289,41 +281,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="65" column="99" selection-start-line="65" selection-start-column="99" selection-end-line="65" selection-end-column="99" />
+        <state relative-caret-position="195">
+          <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5802#5808#0" expanded="true" />
-            <element signature="e#5808#5813#0" expanded="true" />
-            <element signature="e#5823#5829#0" expanded="true" />
-            <element signature="e#6036#6042#0" expanded="true" />
-            <element signature="e#6058#6064#0" expanded="true" />
+            <element signature="e#5790#5796#0" expanded="true" />
+            <element signature="e#5796#5801#0" expanded="true" />
+            <element signature="e#5811#5817#0" expanded="true" />
+            <element signature="e#6024#6030#0" expanded="true" />
+            <element signature="e#6046#6052#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6613#6619#0" expanded="true" />
-            <element signature="e#6623#6629#0" expanded="true" />
-            <element signature="e#6641#6647#0" expanded="true" />
-            <element signature="e#6650#6656#0" expanded="true" />
-            <element signature="e#6810#6817#1" expanded="true" />
-            <element signature="e#6880#6887#1" expanded="true" />
-            <element signature="e#6950#6957#1" expanded="true" />
-            <element signature="e#7020#7027#1" expanded="true" />
-            <element signature="e#7090#7097#1" expanded="true" />
+            <element signature="e#6601#6607#0" expanded="true" />
+            <element signature="e#6611#6617#0" expanded="true" />
+            <element signature="e#6629#6635#0" expanded="true" />
+            <element signature="e#6638#6644#0" expanded="true" />
+            <element signature="e#6798#6805#1" expanded="true" />
+            <element signature="e#6868#6875#1" expanded="true" />
+            <element signature="e#6938#6945#1" expanded="true" />
+            <element signature="e#7008#7015#1" expanded="true" />
+            <element signature="e#7078#7085#1" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#7972#7978#0" expanded="true" />
-            <element signature="e#8157#8163#0" expanded="true" />
-            <element signature="e#8174#8180#0" expanded="true" />
-            <element signature="e#8185#8191#0" expanded="true" />
-            <element signature="e#8193#8199#0" expanded="true" />
-            <element signature="e#9318#9325#0" expanded="true" />
-            <element signature="e#9903#9910#0" expanded="true" />
+            <element signature="e#7960#7966#0" expanded="true" />
+            <element signature="e#8145#8151#0" expanded="true" />
+            <element signature="e#8162#8168#0" expanded="true" />
+            <element signature="e#8173#8179#0" expanded="true" />
+            <element signature="e#8181#8187#0" expanded="true" />
+            <element signature="e#9306#9313#0" expanded="true" />
+            <element signature="e#9891#9898#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="1098" column="21" selection-start-line="1098" selection-start-column="21" selection-end-line="1098" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="173" column="25" selection-start-line="173" selection-start-column="25" selection-end-line="173" selection-end-column="25" />
+        <state relative-caret-position="500">
+          <caret line="217" column="30" selection-start-line="217" selection-start-column="30" selection-end-line="217" selection-end-column="30" />
           <folding />
         </state>
       </provider>

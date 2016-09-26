@@ -189,14 +189,20 @@ a:hover {
     padding-right:0px;
 }
 
-#primary-menu > ul:nth-child(1) > li:nth-child(1) > a {
+#primary-menu > ul:nth-child(1) > li:nth-child(1) > a, #primary-menu > ul:nth-child(2) > li:nth-child(1) > a {
     color:#FDA365;
 }
-#primary-menu > ul:nth-child(1) > li:nth-child(2) > a {
+#primary-menu > ul:nth-child(1) > li:nth-child(2) > a, #primary-menu > ul:nth-child(2) > li:nth-child(2) > a {
     color:#93D6CA;
 }
-#primary-menu > ul:nth-child(1) > li:nth-child(3) > a {
+#primary-menu > ul:nth-child(1) > li:nth-child(3) > a, #primary-menu > ul:nth-child(2) > li:nth-child(3) > a {
     color:#D1DE6A;
+}
+#primary-menu > ul:nth-child(1) > li:nth-child(1) > a, #primary-menu > ul:nth-child(1) > li:nth-child(2) > a, #primary-menu > ul:nth-child(1) > li:nth-child(3) > a {
+    font-weight:700;
+}
+body.stretched #header.full-header .container {
+    padding-right:0;
 }
 
 
@@ -206,6 +212,66 @@ a:hover {
     font-size:18px;
     color:#FFF;
     text-transform:none;
+    letter-spacing:0 !important;
+}
+#primary-menu ul li:hover > a {
+    text-decoration:underline;
+}
+@media (max-width:1460px) {
+    #primary-menu ul li > a {
+        font-size:17px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+}
+@media (max-width:1350px) {
+    #primary-menu ul li > a {
+        font-size:16px;
+        padding-left:7px;
+        padding-right:7px;
+    }
+}
+@media (max-width:1270px) {
+    #logo img {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+}
+@media (max-width:1240px) {
+    #primary-menu ul li > a {
+        font-size:15px;
+        padding-left:6px;
+        padding-right:6px;
+    }
+}
+@media (max-width:1190px) {
+    #primary-menu ul li > a {
+        padding-left:6px;
+        padding-right:6px;
+    }
+}
+@media (max-width:1135px) {
+    #logo img {
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+}
+@media (max-width:1085px) {
+    #header.full-header #primary-menu > ul {
+        margin-right:0;
+    }
+    body.stretched #header.full-header .container {
+        padding-left: 15px;
+    }
+    #logo img {
+        padding-top:17.5px;
+        padding-bottom:17.5px;
+    }
+}
+@media (max-width:993px) {
+    #primary-menu > ul:nth-child(1) > li:nth-child(1) > a, #primary-menu > ul:nth-child(1) > li:nth-child(2) > a, #primary-menu > ul:nth-child(1) > li:nth-child(3) > a {
+        font-weight:400;
+    }
 }
 .phone-slug {
     background:#758186;
