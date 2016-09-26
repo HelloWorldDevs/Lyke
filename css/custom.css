@@ -75,16 +75,21 @@ a:hover {
     padding-right:0px;
 }
 
-#primary-menu > ul > li:nth-child(1) > a {
+#primary-menu > ul:nth-child(1) > li:nth-child(1) > a {
     color:#FDA365;
 }
-#primary-menu > ul > li:nth-child(2) > a {
-    color:#FDA365;
+#primary-menu > ul:nth-child(1) > li:nth-child(2) > a {
+    color:#93D6CA;
 }
+#primary-menu > ul:nth-child(1) > li:nth-child(3) > a {
+    color:#D1DE6A;
+}
+
 
 #primary-menu ul li > a {
     font-family: 'Lato', sans-serif;
     font-weight:400;
     font-size:18px;
     color:#FFF;
+    text-transform:none;
 }
