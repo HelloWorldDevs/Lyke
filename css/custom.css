@@ -86,3 +86,13 @@ a:hover {
     background:#E27101;
     text-shadow:none;
 }
+
+/** ICON ARROW DOWN **/
+.icon-arrow-down {
+    color: black;
+    border: 2px solid black;
+    border-radius: 10000px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
