@@ -16,6 +16,7 @@ h1 {
 }
 h2 {
     font-size:48px;
+    color:#68B2A5;
 }
 h3 {
     font-size:36px;
@@ -40,6 +41,21 @@ a {
     margin-top:-20px !important;
     padding-left:130px;
 }
+#slide-2 .slider-caption {
+    padding-left:0px;
+}
+
+#slide-2 h2 {
+    text-shadow: 0px 0px 5px #FFFFFF;
+    line-height:60px;
+    text-transform:none;
+    font-weight:900;
+    margin-bottom:15px;
+}
+#slide-2 p {
+    font-family:
+}
+
 #slide-1 p {
     font-size: 29px;
     color: #484F52;
@@ -59,7 +75,8 @@ a {
 
 .star {
     font-size:35px;
-    color:#FFCD00;
+    color:#FDBE00;
+    text-shadow:none;
 }
 a:hover {
     text-decoration:none;
@@ -82,7 +99,7 @@ a:hover {
 
 }
 .custom-btn:hover {
-    background:#E27101;
+    background:#DB5900;
     text-shadow:none;
 }
 
