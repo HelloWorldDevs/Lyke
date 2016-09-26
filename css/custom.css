@@ -35,6 +35,10 @@ p {
 }
 
 a {
+    color:#FFF;
+}
+a:hover {
+    color:#FFF;
 }
 
 .slider-caption.slider-caption-right {
@@ -183,3 +187,69 @@ a:hover {
     color:#FFF;
     text-transform:none;
 }
+.phone-slug {
+    background:#758186;
+}
+.text-phone {
+    font-size:36px;
+    font-weight:700;
+    color:#FFF;
+}
+.phone-slug h6 {
+    line-height:5px;
+    color:#FFF;
+    font-weight:400;
+}
+
+.phone-slug div.col-sm-6.tleft {
+    border-left:1px solid #FFF;
+}
+.phone-slug .custom-btn {
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.phone-slug p {
+    color:#FFF;
+    font-size:21px;
+}
+
+.phone-slug div.col-sm-6.tright {
+    margin-top:8px;
+}
+.phone-slug {
+    padding-top:20px;
+}
+@media (max-width:767px) {
+    .phone-slug div.col-sm-6.tright {
+        text-align:center !important;
+    }
+    .phone-slug div.col-sm-6.tleft {
+        text-align:center !important;
+        border-left:none;
+    }
+    .phone-slug h6 {
+        font-size:21px;
+        line-height:10px;
+    }
+    .text-phone {
+        font-size:40px;
+        margin-bottom:20px;
+    }
+    .phone-slug .custom-btn {
+        margin-bottom:20px;
+    }
+    .phone-slug p {
+        font-size:16px;
+    }
+    .phone-slug .existing-phone {
+        font-size:24px;
+    }
+    .phone-slug > div:nth-child(1) > div:nth-child(2) > div > p {
+        line-height:25px !important;
+    }
+
+}
+.content-wrap {
+    padding:0;
+}
+
