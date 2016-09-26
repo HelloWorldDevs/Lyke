@@ -389,7 +389,7 @@ section h2 {
     margin-right:10px;
 }
 
-.section-meet-your-dental-team div.col-md-5 > img {
+.section-meet-your-dental-team div.col-md-5 img {
     margin-bottom:20px;
 }
 .section-meet-your-dental-team .col-md-7 > p:nth-child(3) {
@@ -397,4 +397,19 @@ section h2 {
 }
 .section-meet-your-dental-team > div > div.row.flex > .col-md-6 {
     padding-top:30px;
+    padding-bottom:30px;
+}
+@media (max-width:991px) {
+    .img-wrap {
+        text-align:center;
+    }
+    #meet-your-dental-team div.center.topmargin > p:nth-child(4) {
+        margin-bottom:10px;
+    }
+    #meet-your-dental-team > div > div.row > div:nth-child(2) {
+        background:none;
+    }
+    .caption {
+        display:none;
+    }
 }

@@ -117,6 +117,9 @@
     .center-mobile {
         text-align:center;
     }
+    .flex {
+        display:inherit;
+    }
 }
 
 @media (max-width:767px) {
