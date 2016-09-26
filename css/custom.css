@@ -7,27 +7,54 @@ h1, h2, h3, h4,h5,h6 {
     font-weight:700;
 }
 h1 {
-
+    font-size:84px;
+    font-weight:900;
+    line-height:80px;
+    color:#68B2A5;
+    text-shadow:none;
+    margin-bottom:20px;
 }
 h2 {
-
+    font-size:48px;
 }
 h3 {
-
+    font-size:36px;
 }
 h4 {
-
+    font-size:24px;
 }
 h5 {
+    font-size:20px;
 }
 h6 {
-
+    font-size:18px;
 }
 p {
 
 }
 
 a {
+}
+
+.slider-caption.slider-caption-right {
+    margin-top:-20px !important;
+    padding-left:130px;
+}
+#slide-1 p {
+    font-size: 29px;
+    color: #484F52;
+    text-shadow: 2px 2px 5px #FFFFFF;
+    font-weight:400;
+    margin-bottom:60px;
+}
+#slide-1 h4 {
+    font-size: 24px;
+    color: #484F52;
+    font-weight:400;
+    line-height: 25px;
+    text-shadow: 2px 2px 5px #FFFFFF;
+    line-height:30px;
+    margin-bottom:10px;
 }
 
 .star {
@@ -40,14 +67,19 @@ a:hover {
 
 .custom-btn {
     color:#FFF;
-    font-size:20px;
+    font-size:18px;
     border-radius:12px;
     font-weight:400;
     text-shadow:none;
-    border-width:2px;
+    border:2px solid #FFF;
     margin-left:0px;
     margin-right:0px;
+    background:#FD6701;
     text-shadow:none;
+    font-weight:400;
+    padding-top:7.5px;
+    padding-bottom:45px;
+
 }
 .custom-btn:hover {
     background:#E27101;
@@ -56,12 +88,15 @@ a:hover {
 
 /** ICON ARROW DOWN **/
 .icon-arrow-down {
-    color: black;
-    border: 2px solid black;
+    color: white;
+    border: 2px solid #FFF;
     border-radius: 10000px;
     width: 50px;
     height: 50px;
     font-size: 30px;
+    position:relative;
+    top:-20px;
+
 }
 
 #header {
