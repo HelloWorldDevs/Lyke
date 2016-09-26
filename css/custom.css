@@ -1,52 +1,32 @@
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    color:#444;
+    font-family: 'Lato', sans-serif;
     font-weight:400;
-    text-shadow:none;
 }
-
 
 h1, h2, h3, h4,h5,h6 {
-    text-shadow:none;
-    font-family: 'Alegreya Sans', sans-serif;
-}
-h1 {
-    font-size:72px;
-    font-weight:700px;
-    color:#FF8201;
-    text-transform:none;
-    margin-bottom:0;
-    line-height:55px;
-    position:relative;
-    right:3px;
-}
-h2 {
-    font-size:48px;
-    color:#007DA9;
-}
-h3 {
-    font-size:36px;
-    color:#007DA9;
-}
-h4 {
-    font-size:24px;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-h5 {
-    font-size:20px;
-}
-h6 {
-    font-size:18px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight:400
-}
-p {
-    font-size:20px;
-}
-
-section h2 {
     font-weight:700;
 }
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+}
+h6 {
+
+}
+p {
+
+}
+
 a {
 }
 
@@ -58,19 +38,7 @@ a:hover {
     text-decoration:none;
 }
 
-.font-alegreya {
-    font-family: 'Alegreya Sans', sans-serif;
-}
-
-.font-roboto {
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.text-orange {
-    color:#FF8201;
-}
 .custom-btn {
-    background:#FF8201;
     color:#FFF;
     font-size:20px;
     border-radius:12px;
@@ -79,6 +47,7 @@ a:hover {
     border-width:2px;
     margin-left:0px;
     margin-right:0px;
+    text-shadow:none;
 }
 .custom-btn:hover {
     background:#E27101;
@@ -101,4 +70,21 @@ a:hover {
 #logo img {
     padding-top:5px;
     padding-bottom:5px;
+}
+#header.full-header #logo {
+    padding-right:0px;
+}
+
+#primary-menu > ul > li:nth-child(1) > a {
+    color:#FDA365;
+}
+#primary-menu > ul > li:nth-child(2) > a {
+    color:#FDA365;
+}
+
+#primary-menu ul li > a {
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size:18px;
+    color:#FFF;
 }
