@@ -17,6 +17,11 @@ h1 {
 h2 {
     font-size:48px;
     color:#68B2A5;
+    margin-bottom:0px !important;
+}
+@media (max-width:550px) {
+    h2 {
+    }
 }
 h3 {
     font-size:36px;
@@ -341,4 +346,55 @@ body.stretched #header.full-header .container {
 #primary-menu-trigger {
     color:#FFF;
 }
+section h2 {
+    font-weight:900;
+}
 
+.section-meet-your-dental-team p:nth-child(2) {
+    color:#484F52;
+    font-weight:700;
+    font-size:20px;
+    margin-bottom:10px;
+}
+.section-meet-your-dental-team p:nth-child(3), #meet-your-dental-team div.center.topmargin > p:nth-child(4) {
+    color:#4A4A4A;
+    font-size:18px;
+    margin-bottom:0px;
+}
+#meet-your-dental-team div.center.topmargin > p:nth-child(4) {
+    margin-bottom:50px;
+}
+
+#meet-your-dental-team > div > div.row > div:nth-child(2) {
+    background-image: linear-gradient(-90deg, rgba(249,249,247,0.00) 0%, #F1F0EB 100%);
+}
+.section-meet-your-dental-team h3 {
+    font-size:32px;
+    font-weight:700;
+    color:#484F52;
+    margin-bottom:20px;
+    line-height:25px;
+}
+.section-meet-your-dental-team {
+    background-image:url('../images/texture-bkgd-mockup.jpg');
+}
+
+.section-meet-your-dental-team .col-md-6 p {
+    font-weight:300;
+    font-size:16px;
+    color:#4A4A4A;
+}
+.caption {
+    font-style:italic;
+    margin-right:10px;
+}
+
+.section-meet-your-dental-team div.col-md-5 > img {
+    margin-bottom:20px;
+}
+.section-meet-your-dental-team .col-md-7 > p:nth-child(3) {
+    margin-bottom:10px;
+}
+.section-meet-your-dental-team > div > div.row.flex > .col-md-6 {
+    padding-top:30px;
+}
