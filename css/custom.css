@@ -77,7 +77,7 @@ a:hover {
     line-height:60px;
     text-transform:none;
     font-weight:900;
-    margin-bottom:20px;
+    margin-bottom:20px !important;
 }
 
 #slide-2 p {
@@ -412,4 +412,9 @@ section h2 {
     .caption {
         display:none;
     }
+}
+
+#meet-your-dental-team-2 {
+    background:#F1F0EB;
+    padding-top:50px;
 }
