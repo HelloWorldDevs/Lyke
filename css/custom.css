@@ -50,10 +50,16 @@ a {
     line-height:60px;
     text-transform:none;
     font-weight:900;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
+
 #slide-2 p {
-    font-family:
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:24px;
+    font-weight:400;
+    color:#484F52;
+    text-shadow:none;
+    margin-bottom:80px;
 }
 
 #slide-1 p {
