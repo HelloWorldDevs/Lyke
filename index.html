@@ -670,6 +670,40 @@
                     </div>
                 </div>
             </section>
+            <section id="contact" class="section-contact full-screen section nopadding nomargin noborder ohidden">
+                <div class="vertical-middle">
+                    <div class="container clearfix">
+
+                        <!-- Contact Form Overlay
+                        ============================================= -->
+                        <div id="contact-form-overlay-mini" class="clearfix">
+                            <div class="contact-rectangle img-wrap center">
+                                <a href="#" data-scrollto="#header" data-offset="0"><img src="images/lyke-logo-reverse.svg" alt="Logo"></a>
+                            </div>
+                            <div class="center">
+                                <p class="nobottommargin">121 W. Fireweed Ln #280</p>
+                                <p> Anchorage, AK 99503</p>
+                                <p>Click to view map</p>
+                                <p class="nobottommargin">New Patient Hotline</p>
+                                <a href="tel:+18882477152"><p class="text-phone">(888) 247&#8209;7152</p></a>
+                                <a class="btn button custom-btn margin-bottom-30">REQUEST AN APPOINTMENT</a>
+                                <p class="nobottommargin">Existing Patients Call</p>
+                                <a href="tel:+19072587060"><p class="text-phone-2">(907) 258&#8209;7060</p></a>
+                                <p class="font-20 t700">Hours</p>
+                                <p class="t300 font-18">Monday–Friday 8:00am–5:00pm</p>
+                            </div>
+
+
+                        </div><!-- Contact Form Overlay End -->
+
+                    </div>
+                </div>
+
+                <!-- Google Map
+                ============================================= -->
+                <section id="google-map" class="gmap full-screen"></section>
+
+            </section>
 
 
         </div>
@@ -1006,28 +1040,22 @@
 
 <!-- Google Map Script
     ========================= -->
+
+<!-- Google Map Script
+    ========================= -->
 <script>
-    var map, map2;
+    var map;
     function initMap() {
-        var myLatLng = {lat: 38.914417, lng: -120.001949};
-        var myLatLng2 = {lat: 38.969066, lng: -119.928776};
+
+        var myLatLng = {lat: 61.198401, lng: -149.883114};
         map = new google.maps.Map(document.getElementById('google-map'), {
             center: myLatLng,
-            zoom: 16
-        });
-        map2 = new google.maps.Map(document.getElementById('google-map-2'), {
-            center: {lat: 38.969066, lng: -119.928776},
-            maptype: 'ROADMAP',
-            zoom: 16,
+            zoom: 17,
+            scrollwheel: false
         });
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map,
-            title: 'Hello World!'
-        });
-        var marker2 = new google.maps.Marker({
-            position: myLatLng2,
-            map: map2,
             title: 'Hello World!'
         });
     }
