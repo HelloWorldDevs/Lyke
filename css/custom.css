@@ -160,9 +160,10 @@ a:hover {
 
 }
 
-#header {
-    background:#484F52;
+#header.full-header, #header.sticky-header #header-wrap{
+    background-color:#484F52;
 }
+
 #header.full-header {
     border-bottom:none;
 }
@@ -417,11 +418,14 @@ section h2 {
 #meet-your-dental-team-2 {
     background:#F1F0EB;
     padding-top:50px;
+    padding-bottom:50px;
 }
 
-#oc-slider h5 {
+#oc-portfolio h5 {
     font-size:32px;
     color:#484F52;
+    line-height:0px !important;
+    text-align:left;
 }
 
 /** OWL CAROUSEL **/
