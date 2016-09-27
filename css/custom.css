@@ -800,6 +800,7 @@ div.modal-body.team__modal-pic > p {
     }
 }
 
+
 /** SECTION NO INSURANCE **/
 
 .section-no-insurance h2 {
@@ -906,8 +907,47 @@ div.modal-body.team__modal-pic > p {
     }
 }
 
+
+/** END SERVICES **/
+
+/** SECTION INVISALIGN **/
+
+.section-invisalign h2 {
+    margin-bottom:20px !important;
+    color:#68B2A5;
+    font-weight:900;
+    line-height:60px;
+    padding-top:50px;
+}
+#invisalign-mobile h2 {
+    margin-bottom:20px !important;
+    font-weight:900;
+    line-height:60px;
+}
+.section-invisalign {
+    background:url('../images/invisalign-feature-lyke.jpg');
+    background-size:cover;
+    padding-top:50px;
+    padding-bottom:120px;
+}
+.section-invisalign p, #invisalign-mobile p {
+    font-size:18px;
+    font-weight:300;
+    color:#4A4A4A;
+}
+
+/** END INVISALIGN **/
+
 @media (max-width:550px) {
     section h2 {
-        font-size:40px !important;
+        font-size:34px !important;
+    }
+
+}
+
+@media (max-width:500px) {
+    .custom-btn {
+        padding-left:25px;
+        padding-right:25px;
     }
 }
