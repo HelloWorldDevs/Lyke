@@ -20,9 +20,6 @@ h2 {
     margin-bottom:0px !important;
 }
 
-@media (max-width:550px) {
-    h2 {
-    }
 }
 h3 {
     font-size:36px;
@@ -45,6 +42,10 @@ a {
 }
 a:hover {
     color:#FFF;
+}
+section {
+    padding-bottom:20px;
+    padding-top:30px;
 }
 
 .slider-caption.slider-caption-right {
@@ -310,9 +311,7 @@ body.stretched #header.full-header .container {
 .phone-slug div.col-sm-6.tright {
     margin-top:8px;
 }
-.phone-slug {
-    padding-top:20px;
-}
+
 @media (max-width:767px) {
     .phone-slug div.col-sm-6.tright {
         text-align:center !important;
@@ -403,29 +402,27 @@ section h2 {
     padding-top:30px;
     padding-bottom:30px;
 }
-@media (max-width:991px) {
-    .img-wrap {
-        text-align:center;
-    }
-    #meet-your-dental-team div.center.topmargin > p:nth-child(4) {
-        margin-bottom:10px;
-    }
-    #meet-your-dental-team > div > div.row > div:nth-child(2) {
-        background:none;
-    }
-    .caption {
-        display:none;
-    }
+.device-sm .img-wrap {
+    text-align:center;
 }
-@media (max-width:767px) {
-    #meet-your-dental-team > div > div.center.topmargin > h2 {
-        line-height:50px;
-        margin-bottom:25px !important;
-    }
-    #meet-your-dental-team > div > div.center.topmargin > p:nth-child(2) {
-        margin-bottom:30px !important;
-    }
+.device-sm #meet-your-dental-team div.center.topmargin > p:nth-child(4) {
+    margin-bottom:10px;
 }
+.device-sm #meet-your-dental-team > div > div.row > div:nth-child(2) {
+    background:none;
+}
+.device-sm .caption {
+    display:none;
+}
+
+.device-xs #meet-your-dental-team > div > div.center.topmargin > h2 {
+    line-height:50px;
+    margin-bottom:25px !important;
+}
+.device-xs #meet-your-dental-team div.center.topmargin > p:nth-child(2) {
+    margin-bottom:30px !important;
+}
+
 
 #meet-your-dental-team-2 {
     background:#F1F0EB;
@@ -462,28 +459,22 @@ section h2 {
 .portfolio-overlay:hover {
     cursor:pointer;
 }
-@media (max-width:1199px) {
-    .plus-sign {
-        top:31%;
-    }
+.device-md .plus-sign {
+    top:31%;
 }
-@media (max-width:991px) {
 
-    .plus-sign {
-        top:42%;
-    }
+.device-sm .plus-sign {
+    top:42%;
+}
 
+.device-xs .plus-sign {
+    top:30%;
 }
-@media (max-width:767px) {
-    .plus-sign {
-        top:30%;
-    }
+
+.device-xxs .plus-sign {
+    top:37%;
 }
-@media (max-width:479px) {
-    .plus-sign {
-        top:37%;
-    }
-}
+
 #oc-portfolio > div.owl-nav > div.owl-prev > i {
     position:relative;
     left:-2px;
@@ -517,15 +508,13 @@ section h2 {
 .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
     top:44%;
 }
-@media (max-width:991px) {
-    .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
-        top:38%;
-    }
+
+.device-sm .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
+    top:38%;
 }
-@media (max-width:479px) {
-    .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
-        top:41%;
-    }
+
+.device-xxs .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
+    top:41%;
 }
 
 /** END OWL CAROUSEL **/
@@ -583,10 +572,8 @@ div.modal-body.team__modal-pic > p {
     font-size:18px;
 }
 
-@media (max-width:767px) {
-    div.modal-body.team__modal-pic .img-wrap {
-        display:none;
-    }
+.device-xs .modal-body.team__modal-pic .img-wrap {
+    display:none;
 }
 
 /** END TEAM MODALS **/
@@ -702,31 +689,24 @@ div.modal-body.team__modal-pic > p {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.29);
 
 }
-
-
-@media (max-width:1199px) {
-    .specials-row p {
-        margin-top:10px;
-    }
-}
-@media (max-width:991px) {
-    .specials-row {
-        display:inherit;
-    }
-    .section-specials .col-md-4 {
-        max-width:400px;
-        margin:0 auto;
-        margin-bottom:50px;
-    }
+.device-md .specials-row p {
+    margin-top:10px;
 }
 
-@media (max-width:479px) {
-    .section-specials h2 {
-        font-size:44px;
-    }
-    #summer-specials > div > div:nth-child(1) > div > div > p {
-        font-size:20px;
-    }
+.device-sm .specials-row {
+    display:inherit;
+}
+.device-sm .section-specials .col-md-4 {
+    max-width:400px;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+
+.device-xxs .section-specials h2 {
+    font-size:44px;
+}
+.device-xxs #summer-specials > div > div:nth-child(1) > div > div > p {
+    font-size:20px;
 }
 
 
@@ -757,15 +737,11 @@ div.modal-body.team__modal-pic > p {
 .bf-pro:hover {
     text-decoration:underline !important;
 }
-@media (max-width:767px) {
-    #bfpublish {
-        max-height:510px;
-    }
+.device-sm #bfpublish {
+    max-height:510px;
 }
-@media (max-width:500px) {
-    #bfpublish {
-        max-height:350px;
-    }
+.device-xxs #bfpublish {
+    max-height:350px;
 }
 
 
@@ -782,6 +758,7 @@ div.modal-body.team__modal-pic > p {
 .section-office-tour {
     background:url('../images/texture-bkgd-mockup.jpg');
     padding-top:0;
+    padding-bottom:50px;
 }
 .section-office-tour h2 {
     margin-bottom:20px !important;
@@ -797,19 +774,16 @@ div.modal-body.team__modal-pic > p {
 #office-tour .col-md-6:nth-child(1) {
     margin-top:45px;
 }
-
-@media (max-width:991px) {
-    .section-office-tour .col-md-6 {
-        padding-left:15px;
-        padding-right:15px;
-    }
-    .section-office-tour .btn-wrap {
-        text-align:center;
-        margin-bottom:50px;
-    }
-    #office-tour .col-md-6:nth-child(1) {
-        margin-top:0px;
-    }
+.device-md .section-office-tour .col-md-6 {
+    padding-left:15px;
+    padding-right:15px;
+}
+.device-md .section-office-tour .btn-wrap {
+    text-align:center;
+    margin-bottom:50px;
+}
+.device-md #office-tour .col-md-6:nth-child(1) {
+    margin-top:0px;
 }
 
 
@@ -908,15 +882,12 @@ div.modal-body.team__modal-pic > p {
 .section-services .plus-sign {
     top:25%;
 }
-@media (max-width:991px) {
-    .section-services .plus-sign {
-        top:35%;
-    }
+.device-md .section-services .plus-sign {
+    top:35%;
 }
-@media (max-width:767px) {
-    .section-services .plus-sign {
-        top:25%;
-    }
+
+.device-xs .section-services .plus-sign {
+    top:25%;
 }
 
 
@@ -983,20 +954,16 @@ div.modal-body.team__modal-pic > p {
     padding-left:74px;
     padding-right:74px;
 }
-@media (max-width:767px) {
-    #patient-forms div.col-sm-6 {
-        text-align:center !important;
-    }
-    #patient-forms > div > div.center > div > div.col-sm-6.tright.padding-right-30 {
-        margin-bottom:20px;
-    }
-
+.device-xs #patient-forms div.col-sm-6 {
+    text-align:center !important;
 }
-@media (max-width:500px) {
-    #patient-forms div.col-sm-6.tleft.padding-left-30 > a {
-        padding-left:55px;
-        padding-right:55px;
-    }
+.device-xs #patient-forms > div > div.center > div > div.col-sm-6.tright.padding-right-30 {
+    margin-bottom:20px;
+}
+
+.device-xxs #patient-forms div.col-sm-6.tleft.padding-left-30 > a {
+    padding-left:55px;
+    padding-right:55px;
 }
 
 /** END PATIENT FORMS **/
@@ -1065,30 +1032,25 @@ div.modal-body.team__modal-pic > p {
     line-height:10px !important;
 }
 
-@media (max-width:479px) {
-    #contact-form-overlay-mini .text-phone {
-        font-size:28px;
-    }
+.device-xxs #contact-form-overlay-mini .text-phone {
+    font-size:28px;
 }
-@media (max-width:550px) {
-    section h2 {
+.device-xxs section h2 {
         font-size:34px !important;
         line-height:50px !important;
         margin-bottom:20px !important;
-    }
-    .section-no-insurance h4 {
-        font-size:22px;
-    }
-    #contact-form-overlay-mini > div:nth-child(2) {
-        padding-left:15px;
-        padding-right:15px;
-    }
-    #contact-form-overlay-mini .custom-btn {
-        padding-left:10px;
-        padding-right:10px;
-        font-size:16px;
-    }
-
+}
+.device-xxs .section-no-insurance h4 {
+    font-size:22px;
+}
+.device-xxs #contact-form-overlay-mini > div:nth-child(2) {
+    padding-left:15px;
+    padding-right:15px;
+}
+.device-xxs #contact-form-overlay-mini .custom-btn {
+    padding-left:10px;
+    padding-right:10px;
+    font-size:16px;
 }
 
 /** END CONTACT SECTION **/
@@ -1139,43 +1101,37 @@ footer img {
 #copyrights > div > div > div:nth-child(3) > div:nth-child(1) > a:hover, #copyrights > div > div > div:nth-child(3) > div:nth-child(3) > a:hover {
     text-decoration:none;
 }
-@media (max-width:991px) {
-    #copyrights .col-md-2 {
-        transform:translateY(0%);
-        width:27%;
-        margin:0 auto;
-        margin-top:10px;
-        display:flex;
-        flex-direction:row-reverse;
-    }
-}
-@media (max-width:479px) {
-    #copyrights .col-md-2 {
-        width:41%;
-    }
+
+.device-sm #copyrights .col-md-2 {
+    transform:translateY(0%);
+    width:27%;
+    margin:0 auto;
+    margin-top:10px;
+    display:flex;
+    flex-direction:row-reverse;
 }
 
-@media (max-width:500px) {
-    .custom-btn {
-        padding-left:25px;
-        padding-right:25px;
-    }
+.device-xxs #copyrights .col-md-2 {
+    width:41%;
 }
-@media (max-width:400px) {
-    #logo img {
-        padding-top:25px;
-        padding-bottom:25px;
-    }
-    #primary-menu-trigger {
-        left:-15px;
-    }
-    #office-tour > div > div.row > div:nth-child(1) > div > a {
-        padding-left:30px;
-        padding-right:30px;
-    }
-    div.modal-body.team__modal-pic > p {
-        font-size:16px;
-    }
+
+.device-xxs .custom-btn {
+    padding-left:25px;
+    padding-right:25px;
+}
+.device-xxs #logo img {
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.device-xxs #primary-menu-trigger {
+    left:-15px;
+}
+.device-xxs #office-tour > div > div.row > div:nth-child(1) > div > a {
+    padding-left:30px;
+    padding-right:30px;
+}
+.device-xxs div.modal-body.team__modal-pic > p {
+    font-size:16px;
 }
 
 @media (max-width:330px) {
