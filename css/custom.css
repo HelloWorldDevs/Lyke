@@ -1010,6 +1010,10 @@ div.modal-body.team__modal-pic > p {
     padding-left:15px;
     padding-right:15px;
 }
+#google-map {
+    border-top:5px solid #FFF;
+    border-bottom:5px solid #FFF;
+}
 #contact-form-overlay-mini .text-phone-2 {
     font-size:24px;
     color:#68B2A5;
@@ -1085,6 +1089,66 @@ div.modal-body.team__modal-pic > p {
         font-size:16px;
     }
 
+}
+
+/** END CONTACT SECTION **/
+
+footer {
+    background:#F1F0EB;
+
+}
+footer .container {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+footer img {
+    max-height:120px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#copyrights {
+    background:#758186;
+    padding-top:0;
+    padding-bottom:0;
+}
+#copyrights p {
+    font-size:14px;
+    color:#FFF !important;
+    font-weight:400;
+    margin-bottom:0;
+    position:relative;
+    transform:translateY(50%);
+}
+#copyrights a:hover {
+    text-decoration:underline;
+}
+#copyrights .col-md-2 {
+    display:flex;
+    position:relative;
+    transform:translateY(25%);
+
+}
+
+#copyrights > div > div > div:nth-child(3) > div:nth-child(1) {
+    margin-right:15px;
+}
+
+#copyrights > div > div > div:nth-child(3) > div:nth-child(1) > a:hover, #copyrights > div > div > div:nth-child(3) > div:nth-child(3) > a:hover {
+    text-decoration:none;
+}
+@media (max-width:991px) {
+    #copyrights .col-md-2 {
+        transform:translateY(0%);
+        width:15.5%;
+        margin:0 auto;
+        margin-top:10px;
+    }
+}
+@media (max-width:479px) {
+    #copyrights .col-md-2 {
+        width:37.5%;
+    }
 }
 
 @media (max-width:500px) {
