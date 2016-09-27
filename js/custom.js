@@ -40,4 +40,16 @@
 
     HWD.mailForm('#mail-form', '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Uid Goes Here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
 
+    /* REMOVES AND ADDS CONTAINER FOR BETTER CENTERING ON MOBILE FOR PHONE SLUG *****/
+
+
+    $(window).resize(function() {
+        if ($(window).width() < 480) {
+            $('.phone-slug .container').removeClass('container');
+        }
+        else {
+            $('.phone-slug > div').addClass('container');
+        }
+    });
+
 })(jQuery);
