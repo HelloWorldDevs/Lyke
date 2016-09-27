@@ -576,9 +576,12 @@ h4.modal-title {
     border-radius:5px;
 }
 
+#slider-mobile {
+
+}
 
 
-/** END CONTACT MODAL **/
+    /** END CONTACT MODAL **/
 
 /** TEAM MODALS **/
 
@@ -728,6 +731,9 @@ div.modal-body.team__modal-pic > p {
     font-size:20px;
 }
 
+#slide-1, #slide-2, #slide-3 {
+    background-position:0;
+}
 
 /** END SPECIALS **/
 
