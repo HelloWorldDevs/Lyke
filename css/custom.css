@@ -369,6 +369,7 @@ section h2 {
 #meet-your-dental-team > div > div.row > div:nth-child(2) {
     background-image: linear-gradient(-90deg, rgba(249,249,247,0.00) 0%, #F1F0EB 100%);
 }
+
 .section-meet-your-dental-team h3 {
     font-size:32px;
     font-weight:700;
@@ -412,6 +413,15 @@ section h2 {
     }
     .caption {
         display:none;
+    }
+}
+@media (max-width:767px) {
+    #meet-your-dental-team > div > div.center.topmargin > h2 {
+        line-height:50px;
+        margin-bottom:25px !important;
+    }
+    #meet-your-dental-team > div > div.center.topmargin > p:nth-child(2) {
+        margin-bottom:30px !important;
     }
 }
 
@@ -938,9 +948,62 @@ div.modal-body.team__modal-pic > p {
 
 /** END INVISALIGN **/
 
+
+/** PATIENT FORMS **/
+
+.section-patient-forms {
+    background:url('../images/texture-bkgd-mockup.jpg');
+}
+.section-patient-forms h2 {
+    font-weight:900;
+    margin-bottom:20px !important;
+}
+.section-patient-forms p {
+    font-weight:300;
+    font-size:18px;
+    color:#484F52;
+}
+.section-patient-forms .custom-btn {
+    background:#FFF;
+    font-size:18px;
+    color:#68B2A5;
+    border:2px solid #68B2A5;
+}
+#patient-forms div.col-sm-6 {
+    padding-left:30px;
+    padding-right:30px;
+}
+.section-patient-forms .custom-btn:hover {
+    background:#93D6CA;
+    color:#FFF;
+}
+#patient-forms div.col-sm-6.tleft.padding-left-30 > a {
+    padding-left:74px;
+    padding-right:74px;
+}
+@media (max-width:767px) {
+    #patient-forms div.col-sm-6 {
+        text-align:center !important;
+    }
+    #patient-forms > div > div.center > div > div.col-sm-6.tright.padding-right-30 {
+        margin-bottom:20px;
+    }
+
+}
+@media (max-width:500px) {
+    #patient-forms div.col-sm-6.tleft.padding-left-30 > a {
+        padding-left:55px;
+        padding-right:55px;
+    }
+}
 @media (max-width:550px) {
     section h2 {
         font-size:34px !important;
+        line-height:50px !important;
+        margin-bottom:20px !important;
+    }
+    .section-no-insurance h4 {
+        font-size:22px;
     }
 
 }
