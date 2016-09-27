@@ -799,3 +799,95 @@ div.modal-body.team__modal-pic > p {
         margin-top:0px;
     }
 }
+
+/** SECTION NO INSURANCE **/
+
+.section-no-insurance h2 {
+    font-size:64px;
+    font-weight:900;
+}
+.section-no-insurance {
+    background:#FFF;
+}
+.section-no-insurance h4 {
+    color:#5A6265;
+    font-weight:400;
+    margin-bottom:60px;
+}
+.section-no-insurance i {
+    color:#FFF;
+    font-size:60px;
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+.icon-wrap {
+    height:120px;
+    width:120px;
+    border-radius:50%;
+    background:#D1DE6A;
+    text-align:center;
+    margin-bottom:20px;
+}
+.section-no-insurance .col-md-3 {
+    text-align:center;
+}
+.section-no-insurance p {
+    font-size:18px;
+    color:#3E3C3B;
+    font-weight:300;
+}
+.section-no-insurance h3 {
+    color:#484F52;
+    font-weight:400;
+}
+.section-no-insurance .custom-btn {
+    padding-left:70px;
+    padding-right:70px;
+    padding-bottom:0px;
+    padding-top:2.5px;
+}
+
+/** END NO INSURANCE **/
+
+/** SERVICES **/
+
+.section-services {
+    background:#F1F0EB;
+    padding-bottom:20px;
+}
+.section-services h5 {
+    font-weight:400;
+    margin-bottom:60px;
+}
+.section-services h4 {
+    color:#484F52;
+    font-weight:400;
+    margin-bottom:0px;
+    line-height:25px;
+    cursor:pointer;
+}
+.section-services h4:hover {
+    text-decoration:underline;
+}
+.section-services p {
+    font-size:18px;
+    font-weight:300;
+    cursor:pointer;
+}
+.section-services p:hover {
+    text-decoration:underline;
+}
+.section-services .img-wrap {
+    text-align:center;
+}
+.section-services img {
+    height:auto;
+}
+
+.section-services .iportfolio {
+    text-align:center;
+}
+.section-services .portfolio-image {
+    margin-bottom:15px;
+}
