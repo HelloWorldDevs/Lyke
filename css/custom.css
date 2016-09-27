@@ -591,7 +591,7 @@ div.modal-body.team__modal-pic > p {
     font-size:18px;
 }
 
-.device-xs .modal-body.team__modal-pic .img-wrap {
+.device-xs .modal-body.team__modal-pic .img-wrap, .device-xxs .modal-body.team__modal-pic .img-wrap {
     display:none;
 }
 
