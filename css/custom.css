@@ -9,18 +9,17 @@ h1, h2, h3, h4,h5,h6 {
 h1 {
     font-size:84px;
     font-weight:900;
-    line-height:80px;
+    line-height:85px;
     color:#68B2A5;
     text-shadow:none;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 h2 {
     font-size:48px;
     color:#68B2A5;
-    margin-bottom:0px !important;
+    margin-bottom:0px;
 }
 
-}
 h3 {
     font-size:36px;
 }
@@ -48,9 +47,31 @@ section {
     padding-top:30px;
 }
 
+.custom-btn {
+    color:#FFF;
+    font-size:18px;
+    border-radius:12px;
+    font-weight:400;
+    text-shadow:none;
+    border:2px solid #FFF;
+    margin-left:0px;
+    margin-right:0px;
+    background:#FD6701;
+    text-shadow:none;
+    font-weight:400;
+    padding-top:7.5px;
+    padding-bottom:45px;
+    letter-spacing:0;
+
+}
+.custom-btn:hover {
+    background:#DB5900;
+    text-shadow:none;
+}
+
 .slider-caption.slider-caption-right {
     margin-top:-50px !important;
-    padding-left:130px;
+    padding-left:110px;
 }
 
 #slide-1 p {
@@ -58,7 +79,7 @@ section {
     color: #484F52;
     text-shadow: 2px 2px 5px #FFFFFF;
     font-weight:400;
-    margin-bottom:70px;
+    margin-bottom:90px;
 }
 #slide-1 h4 {
     font-size: 24px;
@@ -71,15 +92,18 @@ section {
 }
 
 #slide-2 .slider-caption {
-    padding-left:0px;
+    padding-left:50px;
 }
 
+#slide-2 span {
+    font-size:21px;
+    margin-left:2em;
+}
 #slide-2 h2 {
     text-shadow: 0px 0px 5px #FFFFFF;
     line-height:60px;
     text-transform:none;
     font-weight:900;
-    margin-bottom:20px !important;
 }
 
 #slide-2 p {
@@ -108,7 +132,11 @@ section {
     color:#484F52;
     font-weight:400;
     margin-bottom:130px;
-
+    text-shadow:none;
+}
+#slide-3 .custom-btn {
+    padding-left:85px;
+    padding-right:85px;
 }
 
 #slide-3 p {
@@ -128,27 +156,7 @@ a:hover {
     text-decoration:none;
 }
 
-.custom-btn {
-    color:#FFF;
-    font-size:18px;
-    border-radius:12px;
-    font-weight:400;
-    text-shadow:none;
-    border:2px solid #FFF;
-    margin-left:0px;
-    margin-right:0px;
-    background:#FD6701;
-    text-shadow:none;
-    font-weight:400;
-    padding-top:7.5px;
-    padding-bottom:45px;
-    letter-spacing:0;
 
-}
-.custom-btn:hover {
-    background:#DB5900;
-    text-shadow:none;
-}
 
 /** ICON ARROW DOWN **/
 .icon-arrow-down {
@@ -177,22 +185,19 @@ a:hover {
 #primary-menu-trigger {
     font-size:38px;
 }
-@media (max-width:767px) {
-    #logo img {
-        padding-top:12px;
-        padding-bottom:12px;
-    }
-    #primary-menu-trigger {
-        font-size:35px;
-    }
+.device-sm #logo img, .device-xs #logo img {
+    padding-top:12px;
+    padding-bottom:12px;
 }
-@media (max-width:479px) {
-    #primary-menu-trigger {
-        left:-35px;
-    }
-    .icon-reorder {
-        font-size:30px;
-    }
+.device-sm #primary-menu-trigger, .device-xs #primary-menu-trigger {
+    font-size:35px;
+}
+
+.device-xxs #primary-menu-trigger {
+    left:-35px;
+}
+.device-xxs .icon-reorder {
+    font-size:30px;
 }
 #header.full-header #logo {
     padding-right:0px;
@@ -312,35 +317,34 @@ body.stretched #header.full-header .container {
     margin-top:8px;
 }
 
-@media (max-width:767px) {
-    .phone-slug div.col-sm-6.tright {
-        text-align:center !important;
-    }
-    .phone-slug div.col-sm-6.tleft {
-        text-align:center !important;
-        border-left:none;
-    }
-    .phone-slug h6 {
-        font-size:21px;
-        line-height:10px;
-    }
-    .text-phone {
-        font-size:40px;
-        margin-bottom:20px;
-    }
-    .phone-slug .custom-btn {
-        margin-bottom:20px;
-    }
-    .phone-slug p {
-        font-size:16px;
-    }
-    .phone-slug .existing-phone {
-        font-size:24px;
-    }
-    .phone-slug > div:nth-child(1) > div:nth-child(2) > div > p {
-        line-height:25px !important;
-    }
+.device-xs .phone-slug div.col-sm-6.tright, .device-xxs .phone-slug div.col-sm-6.tright {
+    text-align:center !important;
+}
+.device-xs .phone-slug div.col-sm-6.tleft, .device-xxs .phone-slug div.col-sm-6.tleft {
+    text-align:center !important;
+    border-left:none;
+}
+.device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
+    font-size:21px;
+    line-height:10px;
+}
+.device-xs .text-phone, .device-xxs .text-phone {
+    font-size:40px;
+    margin-bottom:20px;
+}
+.device-xs .phone-slug .custom-btn, .device-xxs .phone-slug .custom-btn {
+    margin-bottom:20px;
+}
+.device-xs .phone-slug p, .device-xxs .phone-slug p {
+    font-size:16px;
+}
+.device-xs .phone-slug .existing-phone, .device-xxs .phone-slug .existing-phone {
+    font-size:24px;
+}
 
+.device-xs .phone-slug p, .device-xxs .phone-slug p {
+    line-height:25px !important;
+    text-transform:capitalize;
 }
 .content-wrap {
     padding:0;
@@ -352,11 +356,18 @@ section h2 {
     font-weight:900;
 }
 
+.device-xxs .section-meet-your-dental-team {
+    padding-top:0;
+}
+
 .section-meet-your-dental-team p:nth-child(2) {
     color:#484F52;
     font-weight:700;
     font-size:20px;
     margin-bottom:10px;
+}
+.device-xxs .section-meet-your-dental-team p:nth-child(2) {
+    margin-bottom:20px;
 }
 .section-meet-your-dental-team p:nth-child(3), #meet-your-dental-team div.center.topmargin > p:nth-child(4) {
     color:#4A4A4A;
@@ -378,6 +389,10 @@ section h2 {
     margin-bottom:20px;
     line-height:25px;
 }
+
+.device-xxs .section-meet-your-dental-team h3 {
+    margin-bottom:20px;
+}
 .section-meet-your-dental-team {
     background-image:url('../images/texture-bkgd-mockup.jpg');
 }
@@ -396,7 +411,7 @@ section h2 {
     margin-bottom:20px;
 }
 .section-meet-your-dental-team .col-md-7 > p:nth-child(3) {
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 .section-meet-your-dental-team > div > div.row.flex > .col-md-6 {
     padding-top:30px;
@@ -405,13 +420,13 @@ section h2 {
 .device-sm .img-wrap {
     text-align:center;
 }
-.device-sm #meet-your-dental-team div.center.topmargin > p:nth-child(4) {
+.device-sm #meet-your-dental-team div.center.topmargin > p:nth-child(4), .device-xxs #meet-your-dental-team div.center.topmargin > p:nth-child(4), .device-xs #meet-your-dental-team div.center.topmargin > p:nth-child(4) {
     margin-bottom:10px;
 }
 .device-sm #meet-your-dental-team > div > div.row > div:nth-child(2) {
     background:none;
 }
-.device-sm .caption {
+.device-sm .caption, .device-xxs .caption, .device-xs .caption {
     display:none;
 }
 
@@ -439,10 +454,13 @@ section h2 {
 
 /** OWL CAROUSEL **/
 .owl-carousel .owl-nav [class*=owl-] {
-    top:60%;
+    top:52%;
     background-color:#007DA9;
     color:#FFF;
     border:1px solid #FFF;
+}
+.device-sm .section-meet-your-dental-team .owl-carousel .owl-nav [class*=owl-] {
+    top:53.5%;
 }
 
 .icon-line-plus {
@@ -460,7 +478,7 @@ section h2 {
     cursor:pointer;
 }
 .device-md .icon-line-plus {
-    top:31%;
+    top:33%;
 }
 
 .device-sm .icon-line-plus {
@@ -468,7 +486,7 @@ section h2 {
 }
 
 .device-xs .icon-line-plus {
-    top:30%;
+    top:33%;
 }
 
 .device-xxs .icon-line-plus {
@@ -689,14 +707,14 @@ div.modal-body.team__modal-pic > p {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.29);
 
 }
-.device-md .specials-row p {
+.device-md .specials-row p, .device-sm .specials-row p, .device-xs .specials-row p, .device-xxs .specials-row p {
     margin-top:10px;
 }
 
-.device-sm .specials-row {
+.device-sm .specials-row, .device-xs .specials-row, .device-xxs .specials-row {
     display:inherit;
 }
-.device-sm .section-specials .col-md-4 {
+.device-sm .section-specials .col-md-4, .device-xs .section-specials .col-md-4, .device-xxs .section-specials .col-md-4 {
     max-width:400px;
     margin:0 auto;
     margin-bottom:50px;
@@ -1036,9 +1054,9 @@ div.modal-body.team__modal-pic > p {
     font-size:28px;
 }
 .device-xxs section h2 {
-        font-size:34px !important;
+        font-size:42px;
         line-height:50px !important;
-        margin-bottom:20px !important;
+        margin-bottom:20px;
 }
 .device-xxs .section-no-insurance h4 {
     font-size:22px;
