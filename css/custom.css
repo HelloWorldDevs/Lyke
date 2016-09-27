@@ -719,3 +719,41 @@ div.modal-body.team__modal-pic > p {
 
 
 /** END SPECIALS **/
+
+/** SECTION PATIENT REVIEWS **/
+.section-patient-reviews {
+    background-image:url("../images/reviews-bkgd-lyke.jpg");
+    padding-top:50px;
+    padding-bottom:20px;
+}
+
+.section-patient-reviews h2 {
+    color: #38535A;
+    text-shadow: 2px 2px 5px #FFFFFF;
+}
+.bf-spn {
+    color:#FFF;
+    font-size:16px !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.80);
+}
+.bf-pro {
+    color:#FFF !important;
+    font-size:16px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.80);
+}
+.bf-pro:hover {
+    text-decoration:underline !important;
+}
+@media (max-width:767px) {
+    #bfpublish {
+        max-height:510px;
+    }
+}
+@media (max-width:500px) {
+    #bfpublish {
+        max-height:350px;
+    }
+}
+
+
+/** END SECTION PATIENT REVIEWS **/
