@@ -1060,6 +1060,12 @@ div.modal-body.team__modal-pic > p {
 #contact-form-overlay-mini > div:nth-child(2) > p:nth-child(4) {
     line-height:10px !important;
 }
+
+@media (max-width:479px) {
+    #contact-form-overlay-mini .text-phone {
+        font-size:28px;
+    }
+}
 @media (max-width:550px) {
     section h2 {
         font-size:34px !important;
@@ -1069,6 +1075,15 @@ div.modal-body.team__modal-pic > p {
     .section-no-insurance h4 {
         font-size:22px;
     }
+    #contact-form-overlay-mini > div:nth-child(2) {
+        padding-left:15px;
+        padding-right:15px;
+    }
+    #contact-form-overlay-mini .custom-btn {
+        padding-left:10px;
+        padding-right:10px;
+        font-size:16px;
+    }
 
 }
 
@@ -1076,5 +1091,24 @@ div.modal-body.team__modal-pic > p {
     .custom-btn {
         padding-left:25px;
         padding-right:25px;
+    }
+}
+@media (max-width:400px) {
+    #logo img {
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    #primary-menu-trigger {
+        left:-15px;
+    }
+}
+
+@media (max-width:330px) {
+    #logo img {
+        padidng-top:30px;
+        padding-bottom:30px;
+    }
+    #primary-menu-trigger {
+        left:-5px;
     }
 }
