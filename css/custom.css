@@ -419,10 +419,10 @@ section h2 {
 
 .device-xs #meet-your-dental-team > div > div.center.topmargin > h2 {
     line-height:50px;
-    margin-bottom:25px !important;
+    margin-bottom:25px;
 }
 .device-xs #meet-your-dental-team div.center.topmargin > p:nth-child(2) {
-    margin-bottom:30px !important;
+    margin-bottom:30px;
 }
 
 
@@ -514,12 +514,26 @@ section h2 {
     top:44%;
 }
 
+.device-xs #services .icon-line-plus {
+    top:35%;
+}
+.device-sm #services .icon-line-plus {
+    top:40%;
+}
+.device-lg .section-services .icon-line-plus {
+    top:30%;
+}
+
 .device-sm .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
     top:38%;
 }
 
 .device-xxs .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
     top:41%;
+}
+
+#invisalign-mobile {
+    padding-bottom:0;
 }
 
 /** END OWL CAROUSEL **/
@@ -727,7 +741,7 @@ div.modal-body.team__modal-pic > p {
 .section-patient-reviews h2 {
     color: #38535A;
     text-shadow: 2px 2px 5px #FFFFFF;
-    margin-bottom:30px !important;
+    margin-bottom:30px;
 }
 .bf-spn {
     color:#FFF;
@@ -766,7 +780,7 @@ div.modal-body.team__modal-pic > p {
     padding-bottom:50px;
 }
 .section-office-tour h2 {
-    margin-bottom:20px !important;
+    margin-bottom:20px;
 }
 .section-office-tour .custom-btn {
     padding-left:65px;
@@ -790,6 +804,9 @@ div.modal-body.team__modal-pic > p {
 .device-md #office-tour .col-md-6:nth-child(1) {
     margin-top:0px;
 }
+.section-office-tour .custom-btn {
+    margin-bottom:30px;
+}
 
 
 /** SECTION NO INSURANCE **/
@@ -801,6 +818,7 @@ div.modal-body.team__modal-pic > p {
 .section-no-insurance {
     background:#FFF;
     padding-bottom:50px;
+    padding-top:0px;
 }
 .section-no-insurance h4 {
     color:#5A6265;
@@ -931,6 +949,22 @@ div.modal-body.team__modal-pic > p {
 
 .section-patient-forms {
     background:url('../images/texture-bkgd-mockup.jpg');
+    padding-bottom:50px;
+}
+
+.device-xxs #patient-forms a, .device-xs #patient-forms a {
+    width:100%;
+}
+
+.device-sm #patient-forms div.col-sm-6.tleft > a, .device-md #patient-forms div.col-sm-6.tleft > a, .device-lg #patient-forms div.col-sm-6.tleft > a {
+    padding-left:74px;
+    padding-right:74px;
+}
+#patient-forms div.col-sm-6.tright {
+    padding-right:30px;
+}
+#patient-forms div.col-sm-6.tleft {
+    padding-left:30px;
 }
 .section-patient-forms h2 {
     font-weight:900;
@@ -1041,7 +1075,7 @@ div.modal-body.team__modal-pic > p {
     font-size:28px;
 }
 .device-xxs section h2 {
-        font-size:42px;
+        font-size:36px;
         line-height:50px !important;
         margin-bottom:20px;
 }
@@ -1056,6 +1090,10 @@ div.modal-body.team__modal-pic > p {
     padding-left:10px;
     padding-right:10px;
     font-size:16px;
+}
+
+.device-xxs #office-tour h2, .device-xs #office-tour h2 {
+    margin-bottom:0;
 }
 
 /** END CONTACT SECTION **/
