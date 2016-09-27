@@ -1101,6 +1101,13 @@ div.modal-body.team__modal-pic > p {
     #primary-menu-trigger {
         left:-15px;
     }
+    #office-tour > div > div.row > div:nth-child(1) > div > a {
+        padding-left:30px;
+        padding-right:30px;
+    }
+    div.modal-body.team__modal-pic > p {
+        font-size:16px;
+    }
 }
 
 @media (max-width:330px) {
