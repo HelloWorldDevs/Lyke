@@ -1147,15 +1147,32 @@ footer img {
 
 .device-sm #copyrights .col-md-2 {
     transform:translateY(0%);
-    width:27%;
+    width:17%;
     margin:0 auto;
     margin-top:10px;
     display:flex;
     flex-direction:row-reverse;
 }
 
+.device-xs #copyrights .col-md-2 {
+    transform:translateY(0%);
+    width:27%;
+    margin:0 auto;
+    margin-top:10px;
+    display:flex;
+    flex-direction:row-reverse;
+}
 .device-xxs #copyrights .col-md-2 {
+    transform:translateY(0%);
     width:41%;
+    margin:0 auto;
+    margin-top:10px;
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.device-xs #no-insurance .custom-btn, .device-xxs #no-insurance .custom-btn {
+    width:90%;
 }
 
 .device-xxs .custom-btn {
