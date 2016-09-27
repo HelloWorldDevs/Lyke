@@ -578,3 +578,144 @@ div.modal-body.team__modal-pic > p {
 }
 
 /** END TEAM MODALS **/
+
+/** SPECIALS **/
+
+.section-specials {
+    padding-top:50px;
+    padding-bottom:20px;
+    background:#484F52;
+}
+.section-specials h2 {
+    margin-bottom:0;
+    font-size:48px;
+    color:#FFF;
+    font-weight:900;
+    line-height:50px !important;
+}
+.section-specials .col-xs-12 p {
+    font-size:32px;
+    color:#FFF;
+}
+.specials-1 {
+    background: #93D6CA;
+    color:#93D6CA
+}
+.specials-2 {
+    background: #FDA365;
+    color:#FDA365
+}
+
+.specials-3 {
+    background: #D1DE6A;
+    color:#D1DE6A;
+}
+.specials-row h5 {
+    font-size:36px;
+    color:#FFF;
+    font-weight:700;
+    line-height:40px !important;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.29);
+
+}
+.specials-row p {
+    color:#555555;
+    font-size:18px;
+    margin-bottom:0px;
+    line-height:25px !important;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.specials-label {
+    font-size:14px;
+    color:#555555;
+}
+.specials-save {
+    font-size:18px;
+    text-transform:uppercase;
+    background:none;
+    font-weight:700;
+}
+.section-specials .col-md-4 {
+    border-radius:8px;
+    padding:0;
+    margin-left:20px;
+    margin-right:20px;
+    padding-bottom:20px;
+    background:#FFF;
+    margin-bottom:50px;
+}
+.section-specials .container {
+    padding-left:0;
+    padding-right:0;
+}
+.specials-row {
+    display:flex;
+    text-align:center;
+}
+.specials-top {
+    height:196px;
+    padding-top:15px;
+    border-radius:8px 8px 0px 0px;
+}
+.specials-circle {
+    position:relative;
+    border:7px solid #FFF;
+    width:146px;
+    height:146px;
+    border-radius:50%;
+    top:-73px;
+    margin:0 auto;
+    margin-bottom:-73px;
+}
+.specials-bottom {
+    padding-top:10px;
+    padding-left:12.5px;
+    padding-right:12.5px;
+}
+.specials-save {
+    font-size:18px;
+}
+.price {
+    font-size:84px;
+    color:#FFF;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.29);
+
+}
+.dollar {
+    font-size:36px;
+    color:#FFF;
+    top:-18px;
+    position:relative;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.29);
+
+}
+
+
+@media (max-width:1199px) {
+    .specials-row p {
+        margin-top:10px;
+    }
+}
+@media (max-width:991px) {
+    .specials-row {
+        display:inherit;
+    }
+    .section-specials .col-md-4 {
+        max-width:400px;
+        margin:0 auto;
+        margin-bottom:50px;
+    }
+}
+
+@media (max-width:479px) {
+    .section-specials h2 {
+        font-size:44px;
+    }
+    #summer-specials > div > div:nth-child(1) > div > div > p {
+        font-size:20px;
+    }
+}
+
+
+/** END SPECIALS **/
