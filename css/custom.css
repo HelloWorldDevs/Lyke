@@ -119,7 +119,7 @@ section {
     margin-bottom:20px;
 }
 
-.star {
+.icon-star3 {
     font-size:35px;
     color:#FDBE00;
     text-shadow:none;
@@ -445,10 +445,10 @@ section h2 {
     border:1px solid #FFF;
 }
 
-.plus-sign {
+.icon-line-plus {
     position:relative;
     top:36.5%;
-    font-size:72px;
+    font-size:50px;
     color:#FFF;
     font-weight:400;
 }
@@ -459,19 +459,19 @@ section h2 {
 .portfolio-overlay:hover {
     cursor:pointer;
 }
-.device-md .plus-sign {
+.device-md .icon-line-plus {
     top:31%;
 }
 
-.device-sm .plus-sign {
+.device-sm .icon-line-plus {
     top:42%;
 }
 
-.device-xs .plus-sign {
+.device-xs .icon-line-plus {
     top:30%;
 }
 
-.device-xxs .plus-sign {
+.device-xxs .icon-line-plus {
     top:37%;
 }
 
@@ -879,14 +879,14 @@ div.modal-body.team__modal-pic > p {
 .section-services .portfolio-image {
     margin-bottom:15px;
 }
-.section-services .plus-sign {
+.section-services .icon-line-plus {
     top:25%;
 }
-.device-md .section-services .plus-sign {
+.device-md .section-services .icon-line-plus {
     top:35%;
 }
 
-.device-xs .section-services .plus-sign {
+.device-xs .section-services .icon-line-plus {
     top:25%;
 }
 
@@ -1124,7 +1124,7 @@ footer img {
     padding-bottom:25px;
 }
 .device-xxs #primary-menu-trigger {
-    left:-15px;
+    left:-10px;
 }
 .device-xxs #office-tour > div > div.row > div:nth-child(1) > div > a {
     padding-left:30px;
@@ -1134,12 +1134,3 @@ footer img {
     font-size:16px;
 }
 
-@media (max-width:330px) {
-    #logo img {
-        padidng-top:30px;
-        padding-bottom:30px;
-    }
-    #primary-menu-trigger {
-        left:-5px;
-    }
-}
