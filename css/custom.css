@@ -418,3 +418,88 @@ section h2 {
     background:#F1F0EB;
     padding-top:50px;
 }
+
+#oc-slider h5 {
+    font-size:32px;
+    color:#484F52;
+}
+
+/** OWL CAROUSEL **/
+.owl-carousel .owl-nav [class*=owl-] {
+    top:60%;
+    background-color:#007DA9;
+    color:#FFF;
+    border:1px solid #FFF;
+}
+
+.plus-sign {
+    position:relative;
+    top:36.5%;
+    font-size:72px;
+    color:#FFF;
+    font-weight:400;
+}
+
+.portfolio-item:hover .portfolio-overlay, .iportfolio:hover .portfolio-overlay {
+    opacity:.65;
+}
+.portfolio-overlay:hover {
+    cursor:pointer;
+}
+@media (max-width:1199px) {
+    .plus-sign {
+        top:31%;
+    }
+}
+@media (max-width:991px) {
+
+    .plus-sign {
+        top:42%;
+    }
+
+}
+@media (max-width:767px) {
+    .plus-sign {
+        top:30%;
+    }
+}
+@media (max-width:479px) {
+    .plus-sign {
+        top:37%;
+    }
+}
+#oc-portfolio > div.owl-nav > div.owl-prev > i {
+    position:relative;
+    left:-2px;
+    font-size:25px;
+    top:3px;
+}
+#oc-portfolio > div.owl-nav > div.owl-next > i {
+    position:relative;
+    left:2px;
+    font-size:25px;
+    top:3px;
+}
+.owl-carousel.owl-nav {
+    background-color:#4EA292 !important;
+    background:#4EA292 !important;
+}
+.owl-carousel .owl-nav [class*=owl-]:hover {
+    background-color:#008CBE;
+}
+
+.section-services-slider .owl-carousel .owl-nav [class*=owl-] {
+    top:44%;
+}
+@media (max-width:991px) {
+    .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
+        top:38%;
+    }
+}
+@media (max-width:479px) {
+    .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
+        top:41%;
+    }
+}
+
+/** END OWL CAROUSEL **/
