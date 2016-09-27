@@ -474,6 +474,16 @@ section h2 {
     font-size:25px;
     top:3px;
 }
+
+.owl-carousel .owl-dots .owl-dot span {
+    background-color:#FFF;
+    height:18px;
+    width:18px;
+    border: 2px solid #68B2A5;
+}
+#oc-portfolio > div.owl-dots > div.owl-dot.active > span {
+    background-color:#68B2A5;
+}
 #oc-portfolio > div.owl-nav > div.owl-next > i {
     position:relative;
     left:2px;
