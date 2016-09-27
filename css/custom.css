@@ -730,6 +730,7 @@ div.modal-body.team__modal-pic > p {
 .section-patient-reviews h2 {
     color: #38535A;
     text-shadow: 2px 2px 5px #FFFFFF;
+    margin-bottom:30px !important;
 }
 .bf-spn {
     color:#FFF;
@@ -757,3 +758,44 @@ div.modal-body.team__modal-pic > p {
 
 
 /** END SECTION PATIENT REVIEWS **/
+
+/** OFFICE TOUR **/
+
+.section-office-tour p {
+    color:#090F0F;
+    font-size:18px;
+    font-weight:300;
+}
+
+.section-office-tour {
+    background:url('../images/texture-bkgd-mockup.jpg');
+    padding-top:0;
+}
+.section-office-tour h2 {
+    margin-bottom:20px !important;
+}
+.section-office-tour .custom-btn {
+    padding-left:65px;
+    padding-right:65px;
+}
+.section-office-tour .col-md-6 {
+    padding-left:40px;
+    padding-right:40px;
+}
+#office-tour .col-md-6:nth-child(1) {
+    margin-top:45px;
+}
+
+@media (max-width:991px) {
+    .section-office-tour .col-md-6 {
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .section-office-tour .btn-wrap {
+        text-align:center;
+        margin-bottom:50px;
+    }
+    #office-tour .col-md-6:nth-child(1) {
+        margin-top:0px;
+    }
+}

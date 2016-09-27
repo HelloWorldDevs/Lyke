@@ -61,6 +61,12 @@
 .padding-right-0 {
     padding-right: 0;
 }
+.padding-left-65 {
+    padding-left:65px;
+}
+.padding-right-65 {
+    padding-right:65px;
+}
 .font-64 {
     font-size:64px;
 }
