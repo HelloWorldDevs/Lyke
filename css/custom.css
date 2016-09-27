@@ -808,6 +808,7 @@ div.modal-body.team__modal-pic > p {
 }
 .section-no-insurance {
     background:#FFF;
+    padding-bottom:50px;
 }
 .section-no-insurance h4 {
     color:#5A6265;
@@ -890,4 +891,23 @@ div.modal-body.team__modal-pic > p {
 }
 .section-services .portfolio-image {
     margin-bottom:15px;
+}
+.section-services .plus-sign {
+    top:25%;
+}
+@media (max-width:991px) {
+    .section-services .plus-sign {
+        top:35%;
+    }
+}
+@media (max-width:767px) {
+    .section-services .plus-sign {
+        top:25%;
+    }
+}
+
+@media (max-width:550px) {
+    section h2 {
+        font-size:40px !important;
+    }
 }
