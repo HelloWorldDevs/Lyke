@@ -558,6 +558,27 @@ button.close {
     border-bottom:0px;
 }
 
+#slider-mobile > a > img {
+    width:100%;
+}
+.device-sm #slide-1 > div > div {
+    text-align:right;
+}
+
+.device-sm #slide-1 h1 {
+    font-size:75px;
+    line-height:75px !important;
+}
+.device-sm .slider-caption h2, .device-md .slider-caption h2 {
+    font-size:55px;
+}
+.device-sm #slide-2 .slider-caption {
+    padding-left:150px;
+}
+.device-sm #slide-3 .slider-caption.slider-caption-right {
+    padding-left:0;
+}
+
 h4.modal-title {
     font-size:22px;
     text-decoration:capitalize;
