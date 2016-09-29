@@ -578,9 +578,7 @@ button.close {
 .device-sm #slide-3 .slider-caption.slider-caption-right {
     padding-left:0;
 }
-.device-lg #slide-2 .slider-caption {
-    margin-right:100px;
-}
+
 
 h4.modal-title {
     font-size:22px;
@@ -1228,4 +1226,22 @@ footer img {
 .device-xxs div.modal-body.team__modal-pic > p {
     font-size:16px;
 }
+
+@media (max-width:1450px) {
+    #slide-2 .slider-caption {
+        margin-right:120px;
+    }
+    #slide-3 .slider-caption {
+        margin-right:80px;
+    }
+}
+
+.device-sm #slide-2 .slider-caption {
+        margin-right:0px;
+}
+.device-sm #slide-3 .slider-caption {
+    margin-right:0px;
+}
+
+
 
