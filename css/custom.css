@@ -578,6 +578,9 @@ button.close {
 .device-sm #slide-3 .slider-caption.slider-caption-right {
     padding-left:0;
 }
+.device-lg #slide-2 .slider-caption {
+    margin-right:100px;
+}
 
 h4.modal-title {
     font-size:22px;
