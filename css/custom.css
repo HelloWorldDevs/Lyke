@@ -1248,7 +1248,7 @@ footer img {
 #lightbox-gallery-2 > a:nth-child(2) > img {
     position: absolute;
     left:40px;
-    opacity: .5;
+    opacity: 0;
     width:52%;
     height:30%;
 }
