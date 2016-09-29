@@ -359,7 +359,7 @@ section h2 {
 .section-meet-your-dental-team p:nth-child(3), #meet-your-dental-team div.center.topmargin > p:nth-child(4) {
     color:#4A4A4A;
     font-size:18px;
-    margin-bottom:0px;
+    margin-bottom:0;
 }
 #meet-your-dental-team div.center.topmargin > p:nth-child(4) {
     margin-bottom:50px;
@@ -582,7 +582,7 @@ button.close {
 
 h4.modal-title {
     font-size:22px;
-    text-decoration:capitalize;
+    text-transform:capitalize;
 }
 .modal h5 {
     font-size:15px;
