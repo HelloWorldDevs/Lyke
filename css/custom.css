@@ -1273,5 +1273,12 @@ footer img {
     height:20%;
 }
 
+.device-xs #patient-reviews > .container, .device-xxs #patient-reviews > .container, .device-md #patient-reviews > .container {
+    padding-left:40px;
+    padding-right:40px;
+}
+#bf-revz-widget-2563653231 > div {
+    margin-top:10px !important;
+}
 
 
