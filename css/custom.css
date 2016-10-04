@@ -1312,3 +1312,7 @@ footer img {
 .device-md #slide-3 .slider-caption {
     padding-left:200px;
 }
+
+.owl-carousel .owl-nav [class*=owl-] {
+    opacity: 1;
+}
