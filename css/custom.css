@@ -386,11 +386,11 @@ section h2 {
     margin-right:10px;
 }
 
-.section-meet-your-dental-team div.col-md-5 img {
+.section-meet-your-dental-team .col-md-6 > p:nth-child(3) {
     margin-bottom:20px;
 }
-.section-meet-your-dental-team .col-md-7 > p:nth-child(3) {
-    margin-bottom:20px;
+.section-meet-your-dental-team h3 {
+    margin-top:15px;
 }
 .section-meet-your-dental-team > div > div.row.flex > .col-md-6 {
     padding-top:30px;
@@ -750,9 +750,6 @@ div.modal-body.team__modal-pic > p {
     font-size:20px;
 }
 
-#slide-1, #slide-2, #slide-3 {
-    background-position:0;
-}
 
 /** END SPECIALS **/
 
@@ -1273,6 +1270,45 @@ footer img {
     margin-top:10px !important;
 }
 
-#slider {
+
+.device-md #slider, .device-lg #slider {
     min-height:743px;
+}
+
+.device-md .swiper-slide, .device-lg .swiper-slide {
+    background-position:center center;
+}
+
+.device-md #slide-1 .slider-caption.slider-caption-right {
+    padding-left:200px;
+}
+.device-md #slide-1 p {
+    font-size:25px;
+}
+.device-md #slide-1 h4 {
+    font-size:22px;
+}
+.device-md #slide-1 h1 {
+    font-size:75px;
+}
+
+.device-sm #slide-1 h1 {
+    font-size:40px;
+    line-height:35px;
+}
+#slider-mobile {
+    height:auto;
+}
+.device-md #slide-3 h2 {
+    font-size:64px;
+    letter-spacing:0;
+}
+.device-md #slide-3 h3 {
+    font-size:36px;
+}
+.device-md #slide-3 p {
+    font-size:24px;
+}
+.device-md #slide-3 .slider-caption {
+    padding-left:200px;
 }
