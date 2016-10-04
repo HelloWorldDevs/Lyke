@@ -1329,3 +1329,6 @@ footer img {
         background-repeat:no-repeat;
         background-size:cover;
 }
+.device-sm #google-map, .device-xs #google-map, .device-xxs #google-map {
+    display:none;
+}
