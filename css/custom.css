@@ -1319,3 +1319,13 @@ footer img {
 .owl-carousel .owl-nav [class*=owl-] {
     opacity: 1;
 }
+
+#google-map, #contact {
+    max-height:720px;
+}
+
+.device-sm #contact, .device-md #contact, .device-xs #contact, .device-xxs #contact {
+        background-image:url("images/map-image.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+}
