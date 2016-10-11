@@ -1303,7 +1303,7 @@ footer img {
 .device-md #slide-1 h4 {
     font-size:22px;
 }
-.swiper-slide-active {
+.swiper-slide {
     background-size:cover;
     background-repeat:no-repeat;
     background-position-y:0% !important;
