@@ -1335,7 +1335,7 @@ footer img {
 }
 
 .device-sm #contact, .device-md #contact, .device-xs #contact, .device-xxs #contact {
-        background-image:url("images/map-image.jpg");
+        background-image:url('../images/texture-bkgd-mockup.jpg');
         background-repeat:no-repeat;
         background-size:cover;
 }
@@ -1378,4 +1378,11 @@ footer img {
     font-size:20px;
     width:36px;
     height:36px;
+}
+.map-below-contact-section {
+    padding:0;
+
+}
+.map-below-contact {
+    width:100%;
 }
