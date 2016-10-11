@@ -1393,3 +1393,7 @@ footer img {
 .map-below-contact {
     width:100%;
 }
+
+#footer > div.container > div > div.img-wrap.hidden-sm.hidden-xs > a > img:hover {
+    pointer:cursor;
+}
