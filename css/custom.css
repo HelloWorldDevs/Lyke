@@ -266,6 +266,16 @@ body.stretched #header.full-header .container {
     padding-top:2.5px;
     padding-bottom:5px;
 }
+#header.sticky-header:not(.static-sticky) #header-wrap {
+    height:80px;
+}
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    height:80px;
+}
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+    padding-top:26px;
+    padding-bottom:26px;
+}
 .phone-slug {
     background:#758186;
 }
@@ -622,7 +632,7 @@ div.modal-body.team__modal-pic > p {
 /** SPECIALS **/
 
 .section-specials {
-    padding-top:50px;
+    padding-top:65px;
     padding-bottom:20px;
     background:#484F52;
 }
