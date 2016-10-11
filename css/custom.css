@@ -541,9 +541,7 @@ section h2 {
 #invisalign-mobile {
     padding-bottom:0;
 }
-.invis-img:hover {
-    cursor:pointer;
-}
+
 /** END OWL CAROUSEL **/
 
 #contact-form-overlay-mini > div:nth-child(2) > p:nth-child(3) > a, #contact-form-overlay-mini > div:nth-child(2) > p:nth-child(3) > a:hover {
@@ -1394,6 +1392,6 @@ footer img {
     width:100%;
 }
 
-#footer > div.container > div > div.img-wrap.hidden-sm.hidden-xs > a > img:hover {
-    pointer:cursor;
+.invis-img-hover:hover {
+    cursor:pointer;
 }
