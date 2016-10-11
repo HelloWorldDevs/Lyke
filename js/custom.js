@@ -1,9 +1,7 @@
 (function($) {
-    $('.ui-accordion-header').click(function () {
-        $(this).parent().find('.ui-accordion-content').addClass('folded');
-        $(this).next().removeClass('folded');
-    });
-    var HelloWorldDevs = function() {};
+    var HelloWorldDevs = function() {
+
+    };
 
     HelloWorldDevs.prototype.mailForm = function (form, success_msg, uid) {
         var $form = $(form);
@@ -34,17 +32,9 @@
             });
         });
     };
-    var HWD = new HelloWorldDevs();
 
-    HWD.mailForm('#mail-form', '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Uid Goes Here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
-    //  specialsTemplate.init(
-    //      '7fb35345-752d-4792-9480-cd3db6674a62',
-    //      '#special_template',
-    //      {
-    //          period_ends: '#period_ends',
-    //          period_label: '#period_label'
-    //      }
-    //  );
+    var HWD = new HelloWorldDevs();
+    HWD.mailForm('#mail-form', '#success_msg' , '7fb35345-752d-4792-9480-cd3db6674a62');
 
     $('.mobile-primary-menu a').click(function () {
         if ($('#primary-menu').find('ul.mobile-primary-menu').length > 0) {
