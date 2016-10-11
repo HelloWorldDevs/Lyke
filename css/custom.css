@@ -159,7 +159,7 @@ a:hover {
 
 
 /** ICON ARROW DOWN **/
-.icon-angle-down {
+.icon-angle-down, .one-page-arrow {
     color: #484F52;
 }
 
@@ -1302,6 +1302,11 @@ footer img {
 }
 .device-md #slide-1 h4 {
     font-size:22px;
+}
+.swiper-slide-active {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position-y:0% !important;
 }
 .device-md #slide-1 h1 {
     font-size:75px;
