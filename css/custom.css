@@ -1338,10 +1338,13 @@ footer img {
     max-height:820px;
 }
 
-.device-sm #contact, .device-md #contact, .device-xs #contact, .device-xxs #contact {
+.device-xs #contact, .device-xxs #contact {
         background-image:url('../images/texture-bkgd-mockup.jpg');
         background-repeat:no-repeat;
         background-size:cover;
+}
+.device-sm #contact {
+    background-image:url('../images/map-image.jpg');
 }
 .device-sm #google-map, .device-xs #google-map, .device-xxs #google-map {
     display:none;
