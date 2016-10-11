@@ -1332,3 +1332,35 @@ footer img {
 .device-sm #google-map, .device-xs #google-map, .device-xxs #google-map {
     display:none;
 }
+.invis-img {
+    max-width:16%;
+}
+
+#invisalign div.col-md-6 > p.bottommargin {
+    margin-bottom:30px;
+}
+#invisalign > div > div > div.col-md-6 > div.row {
+    height:134px;
+}
+.btn-transform {
+    transform:translateY(60%);
+    margin-right:50px;
+}
+.device-md .invis-img {
+    max-width:20%;
+}
+#invisalign-mobile .invis-img {
+    max-width:13%;
+}
+.device-xs .btn-transform {
+    transform:translateY(43%);
+}
+.device-xs #invisalign-mobile .invis-img {
+    max-width:18%;
+}
+.device-xxs #invisalign-mobile .invis-img {
+    max-width:28%;
+}
+.device-xxs .btn-transform {
+    transform:translateY(0%);
+}
