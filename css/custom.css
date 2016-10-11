@@ -1374,3 +1374,8 @@ footer img {
 .device-xxs .btn-transform {
     transform:translateY(0%);
 }
+#copyrights a:first-child {
+    font-size:20px;
+    width:36px;
+    height:36px;
+}
